@@ -944,7 +944,7 @@ previous.addEventListener("click",()=>{viewDate=new Date(viewDate.getFullYear(),
 document.addEventListener("DOMContentLoaded", () => {
   const pictures = Array.from({ length: 16 }, (_, i) => {
     const number = String(i + 1).padStart(2, "0");
-    return { src: `assets/pictures/memory-${number}.png`, alt: `Abdullah and Ayra memory ${i + 1}` };
+return { src: `assets/pictures/memory-${number}.jpg`, alt: `Abdullah and Ayra memory ${i + 1}` };
   });
   const image = document.getElementById("memoryImage");
   const caption = document.getElementById("memoryCaption");
@@ -983,7 +983,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const pictures = Array.from({ length: 16 }, (_, i) => {
     const number = String(i + 1).padStart(2, "0");
     return {
-      src: `assets/pictures/memory-${number}.png`,
+      src: `assets/pictures/memory-${number}.jpg`,
       alt: `Abdullah and Ayra memory ${i + 1}`
     };
   });
