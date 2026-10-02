@@ -727,35 +727,39 @@ body.has-art-home #big-name .ch:not(.box):not(.boxw){
 
 @media (max-width: 600px) {
   .music-player {
-    left: 12px;
-    right: auto;
-    bottom: 12px;
-    width: 280px;
-    padding: 8px;
-    gap: 8px;
-    border-width: 2px;
-    box-shadow: 4px 4px 0 #000;
+    left: 10px !important;
+    right: auto !important;
+    bottom: 10px !important;
+    width: 220px !important;
+    max-width: 220px !important;
+    padding: 7px !important;
+    gap: 7px !important;
+    border-width: 2px !important;
+    box-shadow: 3px 3px 0 #000 !important;
+  }
+
+  .music-cover {
+    width: 45px !important;
+    height: 45px !important;
   }
 
   .music-title {
-    font-size: 13px;
+    font-size: 11px !important;
   }
 
   .music-artist {
-    font-size: 10px;
+    font-size: 9px !important;
   }
 
   .music-controls {
-    gap: 5px;
-    margin-top: 6px;
+    gap: 4px !important;
+    margin-top: 4px !important;
   }
 
   .music-controls button {
-    width: 26px;
-    height: 26px;
-    font-size: 12px;
-  }
-}
+    width: 23px !important;
+    height: 23px !important;
+    font-size: 10px !important;
   }
 }
 /* ============================================================
